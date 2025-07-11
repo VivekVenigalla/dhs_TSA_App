@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+}
+
+#menu_bar {
+    display:flex;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    
+}
+#nav_links {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align : right;
+}
+#logo {
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-size: cover;
+}
+#nav_links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+#nav_links a:hover {
+    background-color: #555;
+}
+#nav_links a:visited {
+    color: lightgray;
+}
+#nav_links a:active {
+    color: yellow;
+}
+#nav_links a:focus {
+    outline: 2px solid yellow;
+}
+#content {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
